@@ -1,5 +1,5 @@
 # Basic commands
-
+  
 `$ git init`
 > 建立新的本地端 Repository
 
@@ -35,24 +35,24 @@
 `$ git pull`
 > 將遠端的 commit 拉回本地端 Repository
 > fetch下來直接merge
-
-
+  
+  
 `$ git pull --rebase`
-> Ex.
-> 假設merge前是這樣：
->       D---E master
->      /
-> A---B---C---F origin/master
+> Ex.  
+> 假設merge前是這樣：  
+> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;D---E master  
+> &ensp;&ensp;&ensp;&ensp;&ensp;/  
+> A---B---C---F&ensp;origin/master  
 >
-> 使用merge後：
->       D--------E
->      /          \
-> A---B---C---F----G   master, origin/master
->
-> 用rebase：
-> A---B---C---F---D'---E'   master, origin/master
-
-
+> 使用merge後：  
+> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;D--------E  
+> &ensp;&ensp;&ensp;&ensp;&ensp;/&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;\  
+> A---B---C---F----G&ensp;&ensp;&ensp;master,&ensp;origin/master  
+>  
+> 用rebase：  
+> A---B---C---F---D'---E'&ensp;&ensp;&ensp;master, origin/master  
+  
+  
 `$ git fetch`
 > 遠端的數據庫有了新的 Commit 版本，需要將這些更新取回本地端
 > 所有有更新的brach都取回
