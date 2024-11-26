@@ -108,17 +108,17 @@
 
 &nbsp;
 
-`git stash pop`
+`$ git stash pop`
 > 回到最新 stash 位置的狀態，並刪掉該 stash
 
 &nbsp;
 
-`git stash apply stash@{ <數字> }`
+`$ git stash apply stash@{ <數字> }`
 > 回到 stash@{ <數字> } 位置的狀態，但不會刪掉該 stash
 
 &nbsp;
 
-`git stash drop stash@{ <數字> }`
+`$ git stash drop stash@{ <數字> }`
 > 刪掉該 stash
 
 ## Branch
@@ -208,7 +208,7 @@
 
 &nbsp;
 
-`git config --global user.email "(e-mail)"`
+`$ git config --global user.email "(e-mail)"`
 > 設定e-mail(全域)
 
 ## Tag
